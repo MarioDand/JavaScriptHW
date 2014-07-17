@@ -54,7 +54,7 @@ function canvasClicked(canvasNumber) {
         checkForWinners(content[canvasNumber - 1]);
 
         if (squaresFilled == 9) {
-            alert("Even");
+            alert("Game Over!");
             playAgain();
         }
 
